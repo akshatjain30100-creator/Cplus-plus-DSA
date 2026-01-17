@@ -1,8 +1,9 @@
+// reverse of n digit
 #include<iostream>
 using namespaces as std;
 int main()
 { 
-     int num,rev=0,digit;
+     long int num,rev=0,digit;
      cout<<"enter a number";
      cin>>num;
      while (num!=0)

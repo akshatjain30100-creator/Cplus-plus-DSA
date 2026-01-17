@@ -9,8 +9,18 @@ int main()
        rom=num;
        while(num!=0)
        {
-         digit = num%10;
-         cube = digit * digit * digit; 
-          sum=
+              digit = num%10;
+              cube = digit * digit * digit; 
+              sum = sum + cube;
+              num = num / 10;
        }
+       if (sum = rom)
+       {
+              cout>>"it's a armstrong no";
+       }
+       else
+       {
+              cout>>"not a armstrong no";
+       }
+       return 0;
 }
